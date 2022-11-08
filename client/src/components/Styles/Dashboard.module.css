@@ -1,0 +1,9 @@
+.dashboard {
+  display: flex;
+  height: 100;
+}
+
+.sidebar {
+  flex-basis: 210px;
+  background-color: red;
+}
