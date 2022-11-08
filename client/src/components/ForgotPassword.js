@@ -15,6 +15,7 @@ const ForgotPassword = () => {
             <h2>Forgot Password</h2>
             <h3>Fill in details to change password</h3>
           </div>
+
           <form>
             <div className={styles.input_group}>
               <label>Email</label>
