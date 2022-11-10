@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import AuthHeader from "./AuthHeader";
 import classes from "./SigninContent.module.css";
 import image from "../assets/laptop.svg";
@@ -26,7 +26,7 @@ const SigninContent = () => {
             </div>
           </form>
           <p className={classes.forgetPassword}>
-            <Link>Forgot password </Link>
+            <NavLink to='/forgotpassword'>Forgot password </NavLink>
           </p>
           <button type='submit' className={classes.button}>
             Login
