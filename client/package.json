@@ -5,7 +5,10 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+<<<<<<< HEAD
     "@mui/icons-material": "^5.10.9",
+=======
+>>>>>>> 8264add9d99667d2e37c60fe4e2fad5b4f41e0d6
     "@mui/material": "^5.10.12",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -13,8 +16,15 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-password-strength-bar": "^0.4.1",
+<<<<<<< HEAD
     "react-router-dom": "^6.4.3",
     "react-scripts": "^2.1.3",
+=======
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.6",
+>>>>>>> 8264add9d99667d2e37c60fe4e2fad5b4f41e0d6
     "web-vitals": "^2.1.4"
   },
   "scripts": {
