@@ -1,0 +1,171 @@
+.container {
+  display: block;
+  min-height: 100vh;
+  width: 100%;
+  margin: auto;
+}
+.formContainer {
+  padding: 100px 50px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.header h1 {
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+.header .description {
+  height: 24px;
+  width: 280px;
+}
+
+.input {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input label {
+  font-weight: 700;
+  margin: 4px 0;
+}
+
+.input input {
+  border: 1px solid #868686;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.forgetPassword {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.button {
+  margin-top: 24px;
+  height: 40px;
+  width: 100%;
+
+  border-radius: 8px;
+  background: linear-gradient(101.67deg, #01a8f8 -0.21%, #024ec5 94.49%);
+  color: #fff;
+}
+
+.background {
+  display: none;
+}
+
+.background p {
+  text-align: center;
+}
+
+.signin_p,
+.welcome_p {
+  color: #024ec5;
+}
+
+.welcome_p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+
+.signin_p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+.formHeader {
+  max-width: 100%;
+}
+
+.formHeader p {
+  margin: 10px 0 30px 0;
+  font-size: 1em;
+}
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+.inputGroup label {
+  font-weight: 600;
+  margin: 4px 0;
+}
+.inputGroup input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid rgb(193, 190, 190);
+}
+.checkboxGroup {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.checkboxGroup input {
+  margin-right: 10px;
+}
+.checkboxGroup p {
+  font-size: 1rem;
+}
+.buttonGroup {
+  text-align: center;
+}
+.buttonGroup button {
+  display: block;
+  margin: auto;
+  width: 100%;
+  margin: 16px 0;
+  padding: 10px 0;
+  border-radius: 8px;
+  border: 1px solid rgb(193, 190, 190);
+}
+.signinButton {
+  background-color: black;
+  color: #fff;
+}
+
+.image {
+  display: none;
+}
+
+/* Media Queries */
+@media (min-width: 480px) {
+}
+@media (min-width: 768px) {
+  .background {
+    display: none;
+  }
+  .formContainer {
+    flex-basis: 100%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    display: flex;
+  }
+  .background {
+    background-image: url("../assets/background.png");
+    flex-basis: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .formContainer {
+    flex-basis: 50%;
+    padding-left: 193px;
+    /* padding-top: 132px; */
+    max-width: 700px;
+  }
+}

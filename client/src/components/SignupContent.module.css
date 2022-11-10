@@ -1,0 +1,201 @@
+.container {
+  display: block;
+  min-height: 100vh;
+  width: 100%;
+  margin: auto;
+  padding: 100px 20px 48px 20px;
+}
+
+.formContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.radioContainer {
+  margin: 16px 0 24px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.radioGroup {
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #024ec5;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 12px;
+  width: 33.3%;
+  display: flex;
+  column-gap: 12px;
+}
+
+.radioGroup input {
+  margin-right: 16px;
+}
+
+.inputGroup,
+.addressContainer,
+.inputGroup span {
+  /* margin-bottom: 24px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.passwordGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  justify-content: space-between;
+}
+
+.passwordGroup span {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+  width: 100%;
+}
+
+.inputGroup span {
+  flex-direction: column;
+  margin-right: 16px;
+}
+
+.addressContainer {
+  flex-direction: column;
+}
+
+.inputGroup label,
+.addressContainer label,
+.passwordGroup label {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.inputGroup input,
+.addressContainer input,
+.passwordGroup input {
+  border-radius: 8px;
+  border: 1px solid #868686;
+  padding: 12px 16px;
+  margin-bottom: 9px;
+}
+
+.textGroup {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.textGroup span {
+  color: #024ec5;
+}
+
+.createButton {
+  width: 100%;
+  background: linear-gradient(101.67deg, #01a8f8 -0.21%, #024ec5 94.49%);
+  border-radius: 8px;
+  color: white;
+  padding: 8px;
+  border: 1px solid blue;
+}
+
+/* Media Queries */
+@media (min-width: 375px) {
+  .container {
+    padding: 100px 50px 48px 50px;
+  }
+  .radioContainer {
+    flex-direction: row;
+    align-items: center;
+  }
+  .radioGroup {
+    padding: 6px 4px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+  }
+  .customerRadio {
+    margin-right: 0 !important;
+  }
+  .inputGroup,
+  .addressContainer {
+    margin-bottom: 24px;
+  }
+  .inputGroup {
+    flex-direction: row;
+  }
+  .inputGroup input,
+  .addressContainer input,
+  .passwordGroup input {
+    padding-right: 0;
+  }
+  .passwordGroup {
+    flex-direction: row;
+  }
+  .number,
+  .username,
+  .confirmPassword {
+    margin-right: 0 !important;
+  }
+}
+
+@media (min-width: 425px) {
+  .inputGroup input,
+  .addressContainer input,
+  .passwordGroup input {
+    padding: 12px 16px;
+  }
+  .container {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 48px 100px;
+    max-width: 768px;
+  }
+  .radioContainer {
+    margin: 16px 0 24px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .radioGroup {
+    border-radius: 8px;
+    padding: 12px 46px 12px 16px;
+    border: 1px solid #024ec5;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 24px;
+    width: 100%;
+  }
+  .radioGroup input {
+    margin-right: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 100px;
+    margin: 0;
+    max-width: 100%;
+  }
+  .formContainer {
+    flex-basis: 50%;
+  }
+  .leftSideWrapper {
+    margin: 142px 87px 48px 0;
+  }
+}

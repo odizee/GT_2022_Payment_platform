@@ -1,0 +1,39 @@
+.background {
+  display: none;
+}
+.background p {
+  text-align: center;
+}
+
+.signin_p,
+.welcome_p {
+  color: #024ec5;
+}
+
+.welcome_p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+
+.signin_p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+/* Media Queries */
+
+@media (min-width: 1200px) {
+  .background {
+    background-image: url("../assets/background.png");
+    flex-basis: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+}
