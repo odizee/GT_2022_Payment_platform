@@ -20,10 +20,10 @@ body {
 
 a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.6rem;
   color: black;
   font-family: Montserrat;
-  line-height: 29px;
+  line-height: 2.9rem;
 }
 
 #header {
@@ -35,8 +35,8 @@ a {
 #left {
   display: flex;
   position: relative;
-  padding-top: 150px;
-  padding-bottom: 20px;
+  padding-top: 15rem;
+  padding-bottom: 2rem;
   width: 50%;
   flex-direction: column;
 }
@@ -47,11 +47,11 @@ a {
 }
 
 #sec2 h1 {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 3rem;
+  line-height: 4rem;
   text-align: justify;
-  margin-bottom: 60px;
-  margin-top: 20px;
+  margin-bottom: 6rem;
+  margin-top: 2rem;
 }
 
 #sec2 h1 span {
@@ -59,17 +59,17 @@ a {
 }
 
 #sec2 p {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   text-align: left;
-  padding-bottom: 20px;
+  padding-bottom: 2rem;
 }
 
 #btn1 {
-  margin-right: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  height: 40px;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 4rem;
   background-color: #01a8f8;
   color: white;
   font-weight: 100;
@@ -92,16 +92,20 @@ footer {
 
 footer div {
   display: flex;
-  column-gap: 2px;
+  column-gap: 2rem;
   align-items: center;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer h6 {
+  font-size: 1rem;
 }
 
 #right {
   display: flex;
-  padding-top: 20px;
+  padding-top: 2rem;
   width: 50%;
   flex-direction: row;
 }

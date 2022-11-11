@@ -11,6 +11,9 @@
   margin: 0 auto;
 }
 
+.formContainer > form > p {
+  font-size: 1.2rem;
+}
 .radioContainer {
   margin: 1.6rem 0 2.4rem 0;
   display: flex;
@@ -19,7 +22,7 @@
 
 .radioGroup {
   border-radius: 0.8rem;
-  padding: 1.2rem;
+  padding: 0.6rem 0.4rem;
   border: 1px solid #024ec5;
   font-size: 1;
   font-weight: 400;
@@ -27,13 +30,16 @@
   letter-spacing: 0em;
   text-align: left;
   margin-bottom: 1.2rem;
-  width: 33.3%;
+  width: 100%;
   display: flex;
-  column-gap: 1.2rem;
 }
 
 .radioGroup input {
   margin-right: 1.6rem;
+}
+
+.radioGroup label {
+  font-size: 1.2rem;
 }
 
 .inputGroup,
@@ -44,6 +50,12 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
+}
+
+.inputGroup input,
+.addressContainer input,
+.passwordGroup input {
+  font-size: 1.4rem;
 }
 
 .passwordGroup {
@@ -88,13 +100,19 @@
   margin-bottom: 0.9rem;
 }
 
+.passwordStrength > p {
+  font-size: 1.2rem;
+}
+
 .textGroup {
   display: flex;
   margin-bottom: 2.4rem;
+  font-size: 1rem;
 }
 
 .textGroup span {
   color: #024ec5;
+  font-size: 1rem;
 }
 
 .createButton {
@@ -104,9 +122,11 @@
   color: white;
   padding: 0.8rem;
   border: 1px solid blue;
+  font-size: 1.2rem;
 }
 
 /* Media Queries */
+
 @media (min-width: 375px) {
   .container {
     padding: 10rem 5rem 4.8rem 5rem;
@@ -116,7 +136,7 @@
     align-items: center;
   }
   .radioGroup {
-    padding: 0.6rem 0.4rem;
+    /* padding: 0.6rem 0.4rem; */
     margin-right: 0.4rem;
     margin-bottom: 0px;
   }
@@ -128,7 +148,7 @@
     margin-bottom: 2.4rem;
   }
   .inputGroup {
-    flex-direction: row;
+    /* flex-direction: row; */
   }
   .inputGroup input,
   .addressContainer input,
@@ -136,7 +156,7 @@
     padding-right: 0;
   }
   .passwordGroup {
-    flex-direction: row;
+    /* flex-direction: row; */
   }
   .number,
   .username,
@@ -153,6 +173,24 @@
   }
   .container {
     max-width: 60rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .inputGroup,
+  .passwordGroup {
+    flex-direction: row;
+  }
+
+  .textGroup {
+    display: flex;
+    margin-bottom: 2.4rem;
+    font-size: 1.2rem;
+  }
+
+  .textGroup span {
+    color: #024ec5;
+    font-size: 1.2rem;
   }
 }
 

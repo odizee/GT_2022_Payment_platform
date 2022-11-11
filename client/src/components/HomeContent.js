@@ -5,9 +5,9 @@ function HomeContent() {
   return (
     <div>
       <NavBar />
-      <div id='header'>
-        <div id='left'>
-          <div id='sec2'>
+      <div id="header">
+        <div id="left">
+          <div id="sec2">
             <h1>
               Enjoy<span> Easy</span>,<span> Fast</span> and<span> Secure</span>{" "}
               Banking
@@ -20,34 +20,32 @@ function HomeContent() {
             </p>
 
             <p>
-              <button id='btn1'>Get Started</button>
-              <a href='#'>Get a Demo</a>
+              <button id="btn1">Get Started</button>
+              <a href="#">Get a Demo</a>
             </p>
 
             <p>We are working with</p>
 
             <footer>
               <div>
-                <h6>
-                  <img src='../images/three.svg' />
-                  Paypall
-                </h6>
+                <img src="../images/three.svg" />
+                <h6>Paypall</h6>
               </div>
 
               <div>
-                <img src='../images/two.png' />
+                <img src="../images/two.png" />
                 <h6>Interswitch</h6>
               </div>
 
               <div>
-                <img src='../images/two.svg' />
+                <img src="../images/two.svg" />
                 <h6>MTN</h6>
               </div>
             </footer>
           </div>
         </div>
 
-        <div id='right'></div>
+        <div id="right"></div>
       </div>
     </div>
   );

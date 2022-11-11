@@ -11,14 +11,14 @@
 }
 
 .welcome_p {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 700;
-  line-height: 29px;
+  line-height: 2.9rem;
   letter-spacing: 0em;
 }
 
 .signin_p {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
