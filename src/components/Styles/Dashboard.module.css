@@ -521,6 +521,14 @@
     padding: 2rem;
   }
 
+  .main_area_left {
+    padding-right: 0;
+  }
+
+  .main {
+    padding-left: 0;
+  }
+
   .main_nav {
     flex-direction: column;
     row-gap: 1rem;
