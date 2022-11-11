@@ -12,6 +12,7 @@
 
 .sidebar > .logo {
   color: #024ec5;
+  font-size: 2.4rem;
   padding-left: 2.4rem;
   padding-bottom: 1.2rem;
   border-bottom: 1px solid #01a8f8;
@@ -108,6 +109,10 @@
 
 .mycard {
   margin-bottom: 3.7rem;
+}
+
+.mycard > h2 {
+  font-size: 1.6rem;
 }
 
 .card_container {
@@ -212,11 +217,16 @@
   color: #fff;
 }
 
+.money_flow > h2 {
+  font-size: 1.6rem;
+}
+
 .subscribers {
   margin-bottom: 4rem;
 }
 
 .subscribers > h2 {
+  font-size: 1.6rem;
   margin-bottom: 2.8rem;
 }
 
@@ -557,5 +567,10 @@
 
   .subscribers {
     width: 100%;
+  }
+
+  .main_area_right {
+    padding: inherit;
+    margin-top: 2.4rem;
   }
 }
