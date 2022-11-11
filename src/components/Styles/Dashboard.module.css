@@ -415,7 +415,7 @@
 
 .send_input {
   background-image: url(../../assets/vuesax-linear-send.svg);
-  padding: 1.2rem 1.7rem;
+  padding: 1.7rem 2rem;
   border-radius: 1rem;
   background-position: center;
   outline: none;
@@ -536,5 +536,26 @@
 
   .main_nav > .right_nav > .notifications {
     column-gap: 5rem;
+  }
+
+  .main_area_left {
+    max-width: 37.3rem;
+    margin: auto;
+  }
+
+  .card_container > .card {
+    width: 100%;
+  }
+
+  .balance {
+    width: 100%;
+  }
+
+  .card_num > div > p {
+    font-size: 1.4rem;
+  }
+
+  .subscribers {
+    width: 100%;
   }
 }
